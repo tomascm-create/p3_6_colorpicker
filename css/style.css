@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+@font-face {
+  font-family: BBBArabic_Bold;
+  src: url("../font/AdobeArabic-BoldItalic.otf");
+}
+.container{
+  font-family: BBBArabic_Bold;
+  display: flex;
+}
+#ui{
+  background-color: hotpink;
+  width: 20vw;
+  height: 100vh;
+}
+h1{
+  font-size: 3em;
+}
+label{
+  font-size: 1.5em;
+}
+#canvasWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: aqua;
+}
